@@ -9,7 +9,7 @@ uniform vec2 resolution;
 
 void main() {
     
-    // CRT + Aberracao cromatica - por Lumina
+    // CRT + Aberracao cromatica - por Lumina 
     vec2 uv = gl_FragCoord.xy / resolution.xy;
     
     
