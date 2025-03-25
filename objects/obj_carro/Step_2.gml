@@ -29,8 +29,8 @@ y += velv;
 
 if (place_meeting(x, y, obj_desaccelarea)) {
     velmax = 2;
-    accel = 1;
-    desaccel = 1;
+    accel = 0.05;
+    desaccel = 0.05;
 }
 else {
     velmax = 6;

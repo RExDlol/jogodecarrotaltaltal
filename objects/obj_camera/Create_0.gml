@@ -38,6 +38,21 @@ segue_player = function(){
     }
     
     segue_alvo()
+    if (keyboard_check_pressed(vk_f1)) {
+        segue_inimigo()
+    }
+    
+
+}
+segue_inimigo = function(){
+    //Checando se o player existe
+    if instance_exists(obj_agiota){
+        alvo = obj_agiota;
+    }else{
+        estado = segue_nada
+    }
+    
+    segue_alvo()
     
     
 
